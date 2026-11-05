@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and sensitive keys
+.env
+.env.*
+secrets.json
+id_*
+
+# macOS system files
+.DS_Store

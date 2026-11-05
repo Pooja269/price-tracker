@@ -1,0 +1,47 @@
+{
+  "report_title": "Vitamix Ascent X-Series",
+  "country": "ca",
+  "currency_symbol": "$",
+  "products": [
+    {
+      "name": "Ascent X2 (CA)",
+      "currency": "CAD",
+      "target_price": null,
+      "sources": {
+        "vitamix": {
+          "url": "https://www.vitamix.com/ca/en_us/products/ascent-x2"
+        }
+      }
+    },
+    {
+      "name": "Ascent X4 (CA)",
+      "currency": "CAD",
+      "target_price": null,
+      "sources": {
+        "vitamix": {
+          "url": "https://www.vitamix.com/ca/en_us/products/ascent-x4"
+        }
+      }
+    },
+    {
+      "name": "Ascent X5 (CA)",
+      "currency": "CAD",
+      "target_price": null,
+      "sources": {
+        "vitamix": {
+          "url": "https://www.vitamix.com/ca/en_us/products/ascent-x5"
+        }
+      }
+    },
+    {
+      "name": "Ascent X5 + Stainless Steel Container (CA)",
+      "currency": "CAD",
+      "target_price": null,
+      "sources": {
+        "vitamix": {
+          "url": "https://www.vitamix.com/ca/en_us/products/ascent-x5-with-stainless-steel-container"
+        }
+      }
+    }
+  ]
+}

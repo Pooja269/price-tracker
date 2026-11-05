@@ -1,0 +1,32 @@
+{
+  "report_title": "My price watch",
+  "country": "ca",
+  "currency_symbol": "$",
+  "products": [
+    "Sony WH-1000XM6 headphones",
+
+    {
+      "name": "Dyson V15 Detect",
+      "currency": "CAD",
+      "target_price": 599.99,
+      "search": {
+        "query": "Dyson V15 Detect vacuum",
+        "must_include": ["v15"],
+        "exclude": ["battery", "filter", "refurbished"],
+        "min_price": 300,
+        "stores": ["best buy", "amazon", "walmart", "dyson"],
+        "max_results": 5
+      }
+    },
+
+    {
+      "name": "Instant Pot Duo 6qt",
+      "currency": "CAD",
+      "sources": {
+        "amazon":    { "url": "https://www.amazon.ca/dp/XXXXXXXXXX" },
+        "costco":    { "url": "https://www.costco.ca/PRODUCT-PAGE.html" },
+        "bestbuy":   { "url": "https://www.bestbuy.ca/en-ca/product/PRODUCT-PAGE", "enabled": false }
+      }
+    }
+  ]
+}
